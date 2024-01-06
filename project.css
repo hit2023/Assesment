@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.head{
+    background-image: url(https://i.pinimg.com/originals/79/b1/8f/79b18ffcf9303ebb7323ff13be9078e0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar{
+    background-color: black;
+    opacity: 0.4;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 253.5px;
+    text-align: center;
+}
+.first{
+    border: 2px solid white;
+    outline: 2px solid pink;
+
+}
+.second ul li {
+    line-height: 35px;
+
+}
+.thired{
+    font-size: 25px;
+
+}
+.thired i{
+    margin: 0px 8px;
+}
+.intro{
+    background-color: rgb(209, 197, 197);
+    color: rgb(17, 17, 17);
+    opacity: 0.4;
+    padding: 25px;
+    width: 400px;
+    height: 250px;
+    margin-right: 150px;
+    margin-top: 250px;
+}
+.intro h1 {
+    font-size: 20px;
+    color: royalblue;
+    margin-bottom: 20px;
+}
+section{
+    padding: 25px 0px ;
+    background-color: white;
+ width: 83.33%;
+ float: right;
+}
+.section1,.us{
+
+    display: flex;
+    justify-content: space-around;
+}
+.about,.company{
+    line-height: 30px;
+    width: 40%;
+}
+.about i,.company i{
+ font-size: 50px;
+ color: royalblue;
+}
+h1{
+    color: royalblue;
+}
+.dog , .life ,.us{
+    width: 90%;
+    margin: auto;
+    border: 2px solid grey;
+    outline: 2px solid grey;
+    padding: 30px;
+}
+.photo, .pic,.pic2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.photo img{
+    width: 150px ;
+}
+.pic img,.pic2 img{
+
+    width: 220px;
+}
+.talk,.details{
+    width: 40%;
+}
+.details{
+    line-height: 50px;
+    text-align: center;
+}
+.details input{
+    width: 250px;
+    padding: 5px;
+}
+
+.details button{
+    padding: 10px;
+    background-color: maroon;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+
+}
+
